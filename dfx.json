@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "personal-deai-backend": {
+      "main": "src/personal-deai-backend/main.mo",
+      "type": "motoko"
+    },
+    "personal-deai-frontend": {
+      "dependencies": [
+        "personal-deai-backend"
+      ],
+      "source": [
+        "src/personal-deai-frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "personal-deai-frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

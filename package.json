@@ -16,9 +16,13 @@
     "src/personal-deai-frontend"
   ],
   "dependencies": {
+    "@dfinity/auth-client": "^2.4.0",
+    "@radix-ui/react-slot": "^1.1.2",
+    "class-variance-authority": "^0.7.1",
     "lucide-react": "^0.487.0",
     "react-hot-toast": "^2.5.2",
-    "react-router-dom": "^7.4.1"
+    "react-router-dom": "^7.4.1",
+    "tailwind-merge": "^3.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",

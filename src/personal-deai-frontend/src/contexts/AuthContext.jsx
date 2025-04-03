@@ -1,7 +1,7 @@
 
 import React, { createContext, useState, useContext, useEffect } from 'react';
-// import { Actor, HttpAgent } from '@dfinity/agent';
-// import { AuthClient } from '@dfinity/auth-client';
+import { Actor, HttpAgent } from '@dfinity/agent';
+import { AuthClient } from '@dfinity/auth-client';
 // import { createActor } from '../declarations';
 // import { canisterId } from '../declarations/canister_ids';
 

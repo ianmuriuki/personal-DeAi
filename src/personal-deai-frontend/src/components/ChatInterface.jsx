@@ -178,7 +178,7 @@ const ChatInterface = () => {
         ) : (
           <div className="flex flex-col items-center justify-center h-full text-center p-4">
             <img
-              src="/public/bot.svg"
+              src="/public/favicon.ico"
               alt="AI Assistant"
               className="w-16 h-16 mb-4 opacity-60"
             />

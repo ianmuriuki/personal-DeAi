@@ -12,13 +12,13 @@
         "src/personal-deai-frontend/dist"
       ],
       "type": "assets",
-      "workspace": "personal-deai-frontend"
+      "workspace": "src/personal-deai-frontend"
     }
   },
   "defaults": {
     "build": {
       "args": "",
-      "packtool": ""
+      "packtool": "mops sources"
     }
   },
   "output_env_file": ".env",
